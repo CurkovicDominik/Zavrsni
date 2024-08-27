@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.adfb88c6.css",
-    "main.js": "/static/js/main.427f3b42.js",
-    "static/js/453.6d5578c8.chunk.js": "/static/js/453.6d5578c8.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.adfb88c6.css.map": "/static/css/main.adfb88c6.css.map",
-    "main.427f3b42.js.map": "/static/js/main.427f3b42.js.map",
-    "453.6d5578c8.chunk.js.map": "/static/js/453.6d5578c8.chunk.js.map"
+    "main.css": "/Zavrsni/static/css/main.adfb88c6.css",
+    "main.js": "/Zavrsni/static/js/main.c346c955.js",
+    "static/js/453.6d5578c8.chunk.js": "/Zavrsni/static/js/453.6d5578c8.chunk.js",
+    "static/media/logo.svg": "/Zavrsni/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Zavrsni/index.html",
+    "main.adfb88c6.css.map": "/Zavrsni/static/css/main.adfb88c6.css.map",
+    "main.c346c955.js.map": "/Zavrsni/static/js/main.c346c955.js.map",
+    "453.6d5578c8.chunk.js.map": "/Zavrsni/static/js/453.6d5578c8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.adfb88c6.css",
-    "static/js/main.427f3b42.js"
+    "static/js/main.c346c955.js"
   ]
 }
