@@ -26,11 +26,11 @@ function NavBar({userId,handleLogin,handleLogout,name})
       const userRoleRef = ref(database,`users/${userId}/role`);
       get(userRoleRef).then((snapshot)=>
         {
-          console.log("nijeUSERR")
+          
           if(snapshot.val()=="admin" || snapshot.val()=="trainer")
             {
               setIsUser(false);
-              console.log("nijeUSER")
+            
             }
             else{setIsUser(true)}
         }).catch()

@@ -58,7 +58,7 @@ const Calendar = ({userId,viewBeforeReRender,setViewBeforeReRender,dateBeforeReR
   };
 
   const getWeekData = () => {
-    const startOfWeek = addDays(date, -((date.getDay() + 6) % 7)); // Start from Monday
+    const startOfWeek = addDays(date, -((date.getDay() + 6) % 7));            //Krece od pon
     return Array(7).fill().map((elem, i) => addDays(startOfWeek, i));
   };
 

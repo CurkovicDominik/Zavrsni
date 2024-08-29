@@ -47,7 +47,7 @@ const WorkoutTemplateCreator = ({userId,setNewTemplate,setJeliCustom})=>
                      const customSnapshot = await get(customExercisesRef);
                     const customExercises =  customSnapshot.val() || {};
           
-          //Pitat za objašnjenejeee
+        
                       const exercisesArray = Object.entries(globalExercises).map(([id,exercise])=>({
                           id,
                           ...exercise
@@ -226,7 +226,7 @@ const WorkoutTemplateManager = ({userId})=>
             console.log("ovo su kurenit"+currentUsers);
             setCurrentUsers(usersKeys);
 
-//Pitat za objašnjenejeee
+
            
         }catch(error)
         {
@@ -254,7 +254,6 @@ const WorkoutTemplateManager = ({userId})=>
                 setTemplateValues(templateValuess);
                 console.log("ovo su temp"+templates);
     
-    //Pitat za objašnjenejeee
                
             }catch(error)
             {
