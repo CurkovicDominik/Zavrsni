@@ -266,13 +266,13 @@ const WorkoutTemplateManager = ({userId})=>
 
 
   const handleCreateTemplate = () => {
-    // Implement logic to create a new workout template
+    
     setNewTemplate(true);
     console.log('Creating new workout template:', newTemplate);
   };
 
   const handleAddUser = () => {
-    // Implement logic to add a new user
+   
     setIsAddingUsers(true);
     console.log('Adding new user');
     console.log("ovo su underr tttt"+currentUsers)

@@ -124,7 +124,7 @@ useEffect(()=>
                 weight:exercise.weight || 0.0,
                 name:exercise.name,
                 done:false
-                // Add any other initial exercise data here
+               
               }))});
           }
           selExercises.map((id)=>
@@ -230,7 +230,6 @@ export const ExercisesTemplateList = ({setShowExercises,setExercisesToShow,setJe
                const customSnapshot = await get(customExercisesRef);
                const customExercises =  customSnapshot.val() || {};
   
-  //Pitat za objašnjenejeee
               const exercisesArray = Object.entries(globalExercises).map(([id,exercise])=>({
                   id,
                   ...exercise
